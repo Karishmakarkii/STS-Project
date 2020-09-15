@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+
+.upperbar{
+position: absolute;
+width: 1540px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+background-color: #2E3190;
+}
+.icon{
+color: white;
+/* position: absolute; */
+margin: 0px 2px 0px 2px;
+width: 400px;
+height: 21px;
+left: 146px;
+top: 25px;
+
+}
+.fa-phone-alt,.fa-envelope {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+.navbar-brand{
+    padding-left: 40px;
+}
+.nav-link{
+    margin-left: 20px;
+}
+.btn{
+    background-color:#C13D4A; 
+    color: white;
+}
