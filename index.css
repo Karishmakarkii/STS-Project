@@ -50,7 +50,7 @@ top: 25px;
 }
 .box:hover{
     z-index: 1;
-    box-shadow: 0 6px 20px rgba(187, 41, 55, 0.534);
+    box-shadow: 0 4px 10px rgba(187, 41, 55, 0.534);
     transform:scale(1.02);
 }
 .box .icons{
@@ -94,11 +94,128 @@ top: 25px;
     padding-top: 20px;
     text-align: center;
 }
+/* destination */
+.card-img-top{
+    height: 320px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    opacity: 0.4;
+    width: 347px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    
+    
+  }
 
+  /* courses */
+  .course{
+      max-width: 1536px;
+      min-height: 220px;
+      background-color: #2E3190;
+      color: white;
+  }
 
-
-
-
+  .course .title-course{
+      text-align: center;
+      padding-top: 40px;
+  }
+  .box1{
+    background-color: #2E3190;
+    box-shadow: 0 0 0 0px #e2e9ed;
+    padding: 30px 10px;
+    position: relative;
+    z-index: 0;
+    transition: 0.2s all;
+  }
+  .box1:hover{
+      z-index: 1;
+      background-color: white;
+      color: black;
+      box-shadow: 0 4px 10px rgba(187, 41, 55, 0.534);
+      border-radius:  7px 7px;
+      transform:scale(1.02);
+  }
+  .box1 .icons1{
+      width:100px;
+      height: 80px;
+      margin-left:70px;
+  
+  }
+  .box1 .icons1 .images1{
+      height: 70px;
+      width: 70px;
+  }
+  .box1 .box1_content{
+      margin: 10px 0;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: 0.2s all;
+  
+  }
+  .box1 .box1_content .title1{
+   padding:2px 0 2px 0;
+   
+  }
+  .box1 .box1_content .post1{
+      font-size: 14px;
+  }
+  .box1 .read{
+      display: inline-flex;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: 0.2s all;
+  }
+  .box1:hover .box1_content{
+      opacity: 1;
+      transform: translateY(10px);
+  }
+  .box1:hover .read{
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  .box1:hover .icons1{
+      display: none;
+      transform: translateY(10px);
+  }
+  .fa-arrow-right{
+      color:#C13D4A;
+      padding-top: 15px;
+  }
+  .read-text{
+      color:#C13D4A;
+      padding-top: 10px;
+  }
+  
+  /* blogs */
+  .bottom-right {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #C13D4A;
+    
+  }
+.blog .card-deck .card .card-body .card-text{
+    font-size: 15px;
+}
+.blog .card-deck .card .card-body .card-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.blog .card-deck .card .card-body .contents{
+    font-size: 10px;
+    color:black;
+    margin-top:5px;
+   
+}
 
 
 
