@@ -117,7 +117,7 @@ top: 25px;
   /* courses */
   .course{
       max-width: 1536px;
-      min-height: 220px;
+      min-height: 550px;
       background-color: #2E3190;
       color: white;
   }
@@ -143,20 +143,21 @@ top: 25px;
       transform:scale(1.02);
   }
   .box1 .icons1{
-      width:100px;
-      height: 80px;
+      width:150px;
+      height:150px;
       margin-left:70px;
   
   }
-  .box1 .icons1 .images1{
+  /* .box1 .icons1 .images1{
       height: 70px;
       width: 70px;
-  }
+  } */
   .box1 .box1_content{
       margin: 10px 0;
       opacity: 0;
       transform: translateY(10px);
       transition: 0.2s all;
+      display: none;
   
   }
   .box1 .box1_content .title1{
@@ -184,6 +185,7 @@ top: 25px;
       display: none;
       transform: translateY(10px);
   }
+  
   .fa-arrow-right{
       color:#C13D4A;
       padding-top: 15px;
@@ -216,13 +218,124 @@ top: 25px;
     margin-top:5px;
    
 }
+/* testomonial */
+.testimonial .card-img-top{
+	height: 190px;
+	width: 190px;
+	margin-left: 130px;
+	 border-radius: 10px 10px;
+    border:1px solid white;
+     border-style: solid;   
+}
+.testimonial .card{
+	border-color: white;
+}
+.testimonial .vertical-line{
+    width: 5px;
+    height: 380px;
+    background-color: #BAC7D5;
+    border-radius: 10px 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+   
+}
+.testimonial .images-test{
+    width: 120px;
+    height: 120px;
+    padding-left: 10px;
+
+}
+.testimonial .card .card-body h5{
+	font-weight: bold;
+}
+.testimonial .card .card-body h6{
+	font-weight:lighter;
+	color: blue;
+	padding-top: 0px;
+}
+.testimonial .card .card-body .card-text{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.carousel-indicators li{
+	border: 1px solid red;
+	border-radius: 50px 50px;
+	height: 20px;
+	width: 20px;
+    background-color: red;
+    opacity: 0.4;
+	margin-top: 2500px;
+}
 
 
 
-/* .myfooter{
+/* help */
+.help-blog{
+    font-weight: light;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.help .form-control{
+    border-radius: 15px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    height: 50px;
+    min-width: 200px;
+    margin: 0 15px 0 15px;
+}
+.help .form-row .btn{
+    margin-left: 20px;
+    border-radius: 50px;
+    min-width: 160px;
+    height: 50px;
+}
+
+.myfooter{
     background-color:black;
     color: white;
 }
-.footer-topic{
+ .myfooter  a{
+    color: white;
     text-decoration: none;
-} */
+    
+}
+.myfooter .footer-topic{
+    color: #C13D4A;;
+}
+.myfooter .form-control{
+    min-width: 300px;
+    min-height: 50px;
+   
+    margin:0;
+}
+.myfooter .btn{
+    margin-right:5px;
+    min-height: 50px;
+    min-width: 60px;
+    background: #C13D4A;
+    
+}
+.myfooter .fa-phone-alt{
+    margin-left: 0px;
+}
+
+.social-icons .icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.myfooter .social-icons li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .line{
+        display: none;
+    }
+  }
