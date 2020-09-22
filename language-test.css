@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.header{
+box-shadow: border-box;
+position: relative;
+margin: 0;
+padding: 0;
+height: 30px;
+
+
+background-color: #2E3190;
+}
+.header li{
+    color:white;
+}
+.header a{
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 120px;
+    height: 30px;
+    font-size: 15px;
+}
+.items{
+    display: inline block;
+}
+.tophead{
+    display: flex;
+}
+
+.help.btn, .btn{
+    background-color:#C13D4A; 
+    color: white;
+    border-radius: 10px 10px;
+    width: 130px;
+    height: 45px;
+    padding-top: 7px;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+/* footer */
+
+.myfooter{
+    background-color:#2E3190;
+    color: white;
+}
+ .myfooter  a{
+    color: white;
+    text-decoration: none;
+    
+}
+.myfooter .footer-topic{
+    color: #C13D4A;;
+}
+.myfooter .form-control{
+    min-width: 300px;
+    min-height: 50px;
+   
+    margin:0;
+}
+.myfooter .btn{
+    margin-right:5px;
+    height: 50px;
+    width: 80px;
+    background: #C13D4A;
+    border-radius: 10px 10px;
+    
+}
+.myfooter .fa-phone-alt{
+    margin-left: 0px;
+}
+
+.social-icons .icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.myfooter .social-icons li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* heading */
+
+  @media only screen and 
+  (max-width: 540px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 540px) {
+      .tophead .head-top{
+          display: none;
+      }
+  }

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-.header{
+.header {
 box-shadow: border-box;
 position: relative;
 margin: 0;
 padding: 0;
-height: 30px;
+height: 40px;
 
 
 background-color: #2E3190;
@@ -43,6 +43,9 @@ background-color: #2E3190;
     
     width: 200px;
     height: 200px;
+}
+.nav-link{
+    font-size: 20px;
 }
 /* Services */
 .box{
