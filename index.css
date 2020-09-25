@@ -21,8 +21,9 @@ background-color: #2E3190;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 190px;
     height: 30px;
+    font-size: 12px;
 }
 .items{
     display: inline block;
@@ -44,9 +45,12 @@ background-color: #2E3190;
     width: 200px;
     height: 200px;
 }
+
 .nav-link{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
 }
+
 /* Services */
 .box{
   background-color: #fff;

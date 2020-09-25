@@ -21,9 +21,16 @@ background-color: #2E3190;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 190px;
     height: 30px;
+    font-size: 12px;
+    
 }
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .items{
     display: inline block;
 }
@@ -40,8 +47,10 @@ background-color: #2E3190;
     padding-top: 7px;
 }
 .nav-link{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
 }
+
  /* two section  */
 .text-section{
     margin-top: 60px;

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.header{
+box-shadow: border-box;
+position: relative;
+margin: 0;
+padding: 0;
+height: 30px;
+
+
+background-color: #2E3190;
+}
+.header li{
+    color:white;
+}
+.header a{
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 190px;
+    height: 30px;
+    font-size: 12px;
+    
+}
+.items{
+    display: inline block;
+}
+.tophead{
+    display: flex;
+}
+
+.help.btn, .btn{
+    background-color:#C13D4A; 
+    color: white;
+    border-radius: 10px 10px;
+    width: 130px;
+    height: 45px;
+    padding-top: 7px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* two section  */
+.text-section{
+    margin-top: 60px;
+}
+.image-section{
+    margin-top: 0;
+}
+.text-section h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.university h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.university h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* mission */
+.mission h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.mission h3{
+    font-size: 25px;
+}
+/* vision */
+.vision-top{
+margin-top: 30px;
+}
+/* values */
+.value-top h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.topic img{
+    width: 60px;
+    height: 60px;
+   
+}
+.body .topic{
+    display: inline flex;
+    
+   
+}
+.body h2{
+    font-size: 18px;
+    margin: 10px 10px;
+   
+}
+.body{
+    width: 60em;
+       
+}
+/* testimonial */
+.testimonial{
+    display: flex;
+}
+.img-box{
+    border: 1px solid black;
+    height: 180px;
+    background-color: tomato;
+    background-image: url(/images/julian-wan-WNoLnJo7tS8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.paragraph{
+    position: relative;
+    width: 60em;
+    height: 200px;
+    z-index: -1;
+    border: 1px solid #C13D4A;
+    background-color:#C13D4A;
+    color: white;
+    top: -100px;
+    display: flex;
+    
+
+}
+.text-box h2{
+ font-size: 25px;
+}
+.text-box h3{
+    font-size: 18px;
+}
+.para{
+    padding: 30px;
+}
+.fa-quote-left{
+    padding: 110px 20px 20px 20px;
+    color: turquoise;
+}
+
+/* footer */
+
+.myfooter{
+    background-color:#2E3190;
+    color: white;
+}
+ .myfooter  a{
+    color: white;
+    text-decoration: none;
+    
+}
+.myfooter .footer-topic{
+    color: #C13D4A;;
+}
+.myfooter .form-control{
+    min-width: 300px;
+    min-height: 50px;
+   
+    margin:0;
+}
+.myfooter .btn{
+    margin-right:5px;
+    height: 50px;
+    width: 80px;
+    background: #C13D4A;
+    border-radius: 10px 10px;
+    
+}
+.myfooter .fa-phone-alt{
+    margin-left: 0px;
+}
+
+.social-icons .icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.myfooter .social-icons li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* heading */
+
+  @media only screen and 
+  (max-width: 576px ) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 576px) {
+      .tophead .head-top{
+          display: none;
+      }
+  }
+  /* @media only screen and 
+  (max-width: 992px) {
+      .testimonial{
+         display: flex; 
+      }
+      .paragraph{
+        position: relative;
+        width: 58em;
+        height: 200px;
+        top:10px;
+        border: 1px solid #C13D4A;
+        background-color:#C13D4A;
+        color: white;
+        display: flex;
+        
+        
+    
+    }
+    .img-box{
+        border: 1px solid black;
+        height: 180px;
+        width: 500px;
+    }
+
+     
+  } */
+  @media only screen and 
+  (max-width: 1200px) {
+      .paragraph{
+         width: 50em;
+         height: 200px;
+      }
+
+  }
+  @media only screen and 
+  (max-width: 992px) {
+      .paragraph{
+         width: 35em;
+          padding: 5px;
+         
+      }
+     
+
+  }
+  @media only screen and 
+  (max-width: 576px) {
+      
+      .paragraph{
+        position: relative;
+        width: 58em;
+        height: 250px;
+        padding: 5px;
+        top:10px;
+        display: flex;
+        
+  }
+  .paragraph .para{
+      padding: 5px;
+  }
+  .text-box{
+      margin-top: 60px;
+  }
+  .text-box h2{
+      font-size: 30px;
+  }
+}

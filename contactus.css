@@ -24,6 +24,7 @@ background-color: #2E3190;
     padding: 20px 190px;
     height: 30px;
     font-size: 12px;
+    
 }
 .items{
     display: inline block;
@@ -40,87 +41,40 @@ background-color: #2E3190;
     height: 45px;
     padding-top: 7px;
 }
+
 .nav-link{
     font-size: 18px;
     font-weight: 600;
 }
-
-/* two section  */
-
-/* conatact */
-.about-area .about-blog{
+.reach-us{
+    margin-top: 30px;;
+}
+.reach-us  .reach-blog{
     font-family: inherit;
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
-    width: 60em;
+    width: 45em;
 }
-.about-area h1{ 
+.reach-us h1{
     font-size: 30px;
     font-weight: 600;
 }
-.language h2{
-    font-size: 25px;
-    font-weight: 600;
+/* logo */
+.uni{
+    width: 200px;
+    height: 200px;
 
 }
-/* components */
-.comp h1{
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
+/* office */
+.office-topic ul{
+ font-size: 5px;
 }
-.comp-img img{
-    margin-top:30px;
-    height: 100px;
-    width: 100px;
+.img-contact{
+    width:500px;
+    height: auto;
+}
 
-}
-.listen{
-    text-align: center;
-}
-.listen-text{
-    text-align: center;
-    margin: 0 40px;
-}
-/* Why ilets */
-.head h1{
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-}
-.ilets-img img{
-    margin-top:30px;
-    height: 100px;
-    width: 100px;
-
-}
-.ilets-head{
-    text-align: center;
-}
-.ilets-text{
-    text-align: center;
-    margin: 0 40px;
-}
-.ilets {
-    padding-top: 70px;
-}
-/* Division */
-#accordion .card .card-link{ 
-    position: relative;
-    display: block;
-
-}
-#accordion .card .card-link .fas{ 
-    position: absolute;
-    right: 5px;
-    top: 5px;
-
-}
-#accordion .card a{
-    text-decoration: none;
-    color: black;
-}
 
 /* footer */
 
@@ -167,13 +121,13 @@ background-color: #2E3190;
 /* heading */
 
   @media only screen and 
-  (max-width: 540px) {
+  (max-width: 576px) {
       .myfooter .btn{
           margin-top: 10px;
       }
   }
   @media only screen and 
-  (max-width: 540px) {
+  (max-width: 576px) {
       .tophead .head-top{
           display: none;
       }
