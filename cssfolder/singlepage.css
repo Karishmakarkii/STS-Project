@@ -36,10 +36,11 @@ background-color: #2E3190;
 .help.btn, .btn{
     background-color:#C13D4A; 
     color: white;
-    border-radius: 10px 10px;
+    border-radius: 5px 5px;
     width: 130px;
     height: 45px;
-    padding-top: 7px;
+    padding-top: 7px ;
+    
 }
 
 .nav-link{
@@ -51,15 +52,22 @@ background-color: #2E3190;
 .breadcrumb-item + .breadcrumb-item::before {
     content: ">";
 }
-
-.breadcrumb {
-
+.breadcrumb-div{
     background-color: #2E3190;
     opacity: 0.7;
     width: auto;
     height: 200px;
     margin-top: 30px;
-
+    
+}
+.breadcrumb-div h1 {
+    color: black;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.breadcrumb {
+    margin-top: 10px;
+    background-color: #2E3190;
     display: block;
     text-align: center;}
 .breadcrumb-item {
@@ -68,7 +76,50 @@ background-color: #2E3190;
 
 ol.breadcrumb li.float-left {
     float: none !important;
-    display: inline-block;}
+    display: inline-block;
+}
+/* image-section */
+.image-section{
+    height: 520px;
+  background-image: url(/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* single-blog */
+.single-blog h2{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.single-blog .more .fa-user{
+    color: black;
+}
+/* cards */
+.blogs h1{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.more1 p {
+    color: #C13D4A;
+}
+.more1 .fa-arrow-right {
+    color: #C13D4A;
+}
+.blogs .card-deck .card .card-body .card-text{
+    font-size: 15px;
+}
+.blogs .card-deck .card .card-body .card-title{
+    font-size: 15px;
+    
+}
+.blogs .card-deck .card .card-body .contents{
+    
+    color:black;
+    margin-top:5px;
+    font-weight: 700;
+   
+}
 /* footer */
 
 .myfooter{
@@ -81,7 +132,7 @@ ol.breadcrumb li.float-left {
     
 }
 .myfooter .footer-topic{
-    color: #C13D4A;;
+    color: #C13D4A;
 }
 .myfooter .form-control{
     min-width: 300px;

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.header{
+box-shadow: border-box;
+position: relative;
+margin: 0;
+padding: 0;
+height: 30px;
+
+
+background-color: #2E3190;
+}
+.header li{
+    color:white;
+}
+.header a{
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 190px;
+    height: 30px;
+    font-size: 12px;
+    
+}
+.items{
+    display: inline block;
+}
+.tophead{
+    display: flex;
+}
+
+.help.btn, .btn{
+    background-color:#C13D4A; 
+    color: white;
+    border-radius: 5px 5px;
+    width: 130px;
+    height: 45px;
+    padding-top: 7px ;
+    margin-left: 20px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* breadcrumb */
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+.breadcrumb-div{
+    background-color: #2E3190;
+    opacity: 0.7;
+    width: auto;
+    height: 200px;
+    margin-top: 30px;
+    
+}
+.breadcrumb-div h1 {
+    color: black;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.breadcrumb {
+    margin-top: 10px;
+    background-color: #2E3190;
+    display: block;
+    text-align: center;}
+.breadcrumb-item {
+    text-align: center;
+    display: inline;}
+
+ol.breadcrumb li.float-left {
+    float: none !important;
+    display: inline-block;
+}
+/* two section */
+
+.blog h2{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #2E3190;
+}
+.blog h3{
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.more1 p {
+    color: #C13D4A;
+}
+.more1 .fa-arrow-right {
+    color: #C13D4A;
+}
+.blog .card-deck .card .card-body .card-text{
+    font-size: 15px;
+}
+.blog .card-deck .card .card-body .card-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.blog .card-deck .card .card-body .contents{
+    font-size: 10px;
+    color:black;
+    margin-top:5px;
+   
+}
+#card-id{
+    border: 1px solid white;
+}
+.card-head{
+    font-size: 30px;
+    padding : 20px 0 40px 20px;
+    
+}
+.card-hea{
+    font-size: 18px;
+    padding:15px 0px 20px 25px;
+    text-align: left;
+    
+}
+.form-btn a{
+    font-size: 18px;
+    padding: 15px 0px 20px 25px;
+}
+.form-btn .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid #F4F4F4;
+    border-radius: 0px;
+    width: 350px;
+    height: 60px;
+}
+.form-btn .btn:hover{
+    background-color: #F4F4F4;
+    color:  #C13D4A;
+}
+/* newsletter */
+.news{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.news-para{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+#newsletter{
+    border: 1px solid  #F4F4F4;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    height: 370px;
+}
+#newsletter .form-control{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 45px;
+}
+#newsletter .but .btn{
+    width: 300px;
+    border-radius: 2px;
+}
+
+/* footer */
+
+.myfooter{
+    background-color:#2E3190;
+    color: white;
+}
+ .myfooter  a{
+    color: white;
+    text-decoration: none;
+    
+}
+.myfooter .footer-topic{
+    color: #C13D4A;
+}
+.myfooter .form-control{
+    min-width: 300px;
+    min-height: 50px;
+   
+    margin:0;
+}
+.myfooter .btn{
+    margin-right:5px;
+    height: 50px;
+    width: 80px;
+    background: #C13D4A;
+    border-radius: 10px 10px;
+    
+}
+.myfooter .fa-phone-alt{
+    margin-left: 0px;
+}
+
+.social-icons .icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.myfooter .social-icons li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* heading */
+
+  @media only screen and 
+  (max-width: 576px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 576px) {
+      .tophead .head-top{
+          display: none;
+      }
+  }

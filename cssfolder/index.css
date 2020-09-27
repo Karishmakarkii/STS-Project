@@ -35,7 +35,7 @@ background-color: #2E3190;
 .help.btn, .btn{
     background-color:#C13D4A; 
     color: white;
-    border-radius: 50px 50px;
+    border-radius: 10px 10px;
     width: 130px;
     height: 45px;
     padding-top: 7px;
@@ -308,5 +308,11 @@ textarea.form-control {
   (max-width: 540px) {
       .myfooter .btn{
           margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 576px) {
+      .tophead .head-top{
+          display: none;
       }
   }
