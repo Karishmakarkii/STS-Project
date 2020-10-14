@@ -47,10 +47,17 @@ background-color: #2E3190;
 }
 
 .nav-link{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
-
+.navbar-brand{
+    margin: -10px 0 0 -20px;
+}
+.nav-images{
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+}
 /* Services */
 .box{
   background-color: #fff;
@@ -248,9 +255,14 @@ background-color: #2E3190;
 textarea.form-control {
     height: 220px;
 }
-
+.custom-select{
+    background-color:#F4F5F4;
+    border-color: #F4F5F4;
+    
+}
+/* forms */
 .myfooter{
-    background-color:#2E3190;
+    background-color:black;
     color: white;
 }
  .myfooter  a{
@@ -288,6 +300,9 @@ textarea.form-control {
     display: inline-block;
     margin: 0 5px;
 }
+.footerimages{
+    margin: -60px 0 0 -50px;
+}
 
 /* heading */
 
@@ -305,7 +320,13 @@ textarea.form-control {
   }
 
   @media only screen and 
-  (max-width: 540px) {
+  (max-width: 576px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 768px) {
       .myfooter .btn{
           margin-top: 10px;
       }
@@ -316,3 +337,9 @@ textarea.form-control {
           display: none;
       }
   }
+  @media only screen and (max-width: 576px ){
+    .images2{
+        display: none;
+    }
+   }
+   

@@ -109,17 +109,22 @@ ol.breadcrumb li.float-left {
     margin-top:5px;
    
 }
+.card-deck{
+    margin-left: -30px;
+}
+/* categories */
+
 #card-id{
     border: 1px solid white;
 }
 .card-head{
     font-size: 30px;
-    padding : 20px 0 40px 20px;
+    padding : 10px 0 10px 20px;
     
 }
 .card-hea{
     font-size: 18px;
-    padding:15px 0px 20px 25px;
+    padding:10px 0px 10px 45px;
     text-align: left;
     
 }
@@ -139,6 +144,9 @@ ol.breadcrumb li.float-left {
     background-color: #F4F4F4;
     color:  #C13D4A;
 }
+.categories{
+    margin-left: -40px;
+}
 /* newsletter */
 .news{
     font-size: 25px;
@@ -155,6 +163,8 @@ ol.breadcrumb li.float-left {
     border: 1px solid  #F4F4F4;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     height: 370px;
+    margin: 35px 0px 0px -30px;
+    
 }
 #newsletter .form-control{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -163,6 +173,7 @@ ol.breadcrumb li.float-left {
 #newsletter .but .btn{
     width: 300px;
     border-radius: 2px;
+    margin: 0px;
 }
 
 /* footer */
@@ -216,8 +227,26 @@ ol.breadcrumb li.float-left {
       }
   }
   @media only screen and 
+  (max-width: 768px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
   (max-width: 576px) {
       .tophead .head-top{
           display: none;
       }
+  }
+  @media only screen and
+  (max-width: 576px) {
+    .categories{
+        margin-left: 0px;
+    }
+    .card-deck{
+        margin-left: 0px;
+    }
+    #newsletter{
+        margin: 35px 0 0 0;
+    }
   }

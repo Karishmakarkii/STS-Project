@@ -33,7 +33,7 @@
   </header>
 <div class="container mt-0">
 <nav class="navbar navbar-expand-lg navbar-light  mt-0">
-    <a class="navbar-brand mt-0" href="#"><img src="#"></a>
+    <a class="navbar-brand mt-0" href="#"><img src="images/stsaddress.png"   height="60px" width="200px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,7 +61,7 @@
             <a class="dropdown-item" href="/language-test.html">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div> 
             <a class="dropdown-item" href="#">Separated link</a>
           </div>
         </li>
@@ -75,7 +75,7 @@
             <a class="nav-link mx-2" href="/contactus.html">Contact Us</a>
           </li>
           <li class="nav-item">
-        <a href="signup.html" class="btn btn-danger ml-3 " role="button" >Free Enquiry</a>
+        <a href="#form" class="btn btn-danger ml-3 " role="button" >Free Enquiry</a>
         </li>
       </ul>
     </div>
@@ -430,7 +430,7 @@
 
 
 <!-- Help -->
-<div class="container">
+<div class="container" id="form">
 
   <div class="head text-center py-5">
   <h1>Let’s Get in Touch Today</h1>
@@ -461,13 +461,11 @@
     <div class="form-row">
       <div class="form-group col-md-3 py-3">
         <label for="destination" class="sr-only" >Destination </label>
-        <select id="inputState" class="form-control" >
-          <option selected>Destination...</option>
-          <option>Japan</option>
-          <option>USA</option>
-          <option>Canada</option>
-          <option>New Zealand</option>
-          <option>UK</option>
+        <select class="custom-select" > 
+          <option selected>Destination</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
         </select>
       </div>
       
@@ -492,10 +490,10 @@
 <footer class="myfooter py-5 ">
   <div class="container">
     <div class="row text-left">
-      <div class="col-md-3 col-sm-12">
-        <img src="#">
+      <div class=" footerimages col-lg-3 col-md-6 col-sm-12 pt-0">
+        <img src="images/Step-to-success-address.png" class="w-100">
     </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-lg-3 col-md-6 col-sm-6">
         <h5 class="footer-topic">Contact Us</h5>
         <ul class="list-unstyled">
           <li class="my-2"><i class="fas fa-home mr-3"></i>infomystsedu@gmail.com</li>
@@ -503,7 +501,7 @@
           <li class="my-2"><i class="fas fa-map-marker-alt mr-3"></i></i>+ 01 234 567 88</li>
         </ul>
     </div>
-    <div class="col-md-2 col-sm-6">
+    <div class="col-lg-2 col-md-6 col-sm-6">
       <h5 class="footer-topic">Quick Link</h5>
       <ul class="list-unstyled">
         <li class="my-2"><a href="#">Home</a></li>        
@@ -513,7 +511,7 @@
         <li class="my-2"> <a href="#">Contact</a></li>         
       </ul>
     </div>
-    <div class="col-md-4 col-sm-12 ">
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
       <h5 class="footer-topic">Stay On</h5>
       <form>
         <div class="form-row justify-content-between">

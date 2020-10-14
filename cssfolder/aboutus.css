@@ -197,6 +197,12 @@ margin-top: 30px;
       }
   }
   @media only screen and 
+  (max-width: 768px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
   (max-width: 576px) {
       .tophead .head-top{
           display: none;

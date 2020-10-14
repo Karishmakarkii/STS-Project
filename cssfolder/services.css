@@ -117,7 +117,11 @@ textarea.form-control {
 }
 .topic{
 	font-weight: bold;
-	font-size: 15px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.sub-topic{
+    padding-top: 0px;
 }
 .texts{
 	font-size: 15px;
@@ -126,6 +130,11 @@ textarea.form-control {
 .form-row a{ 
 text-decoration: none;
  }
+ .custom-select{
+    background-color:#F4F5F4;
+    border-color: #F4F5F4;
+    
+}
 /* footer */
 
 .myfooter{
@@ -171,7 +180,19 @@ text-decoration: none;
 /* heading */
 
   @media only screen and 
-  (max-width: 540px) {
+  (max-width: 576px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 768px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 768px) {
       .myfooter .btn{
           margin-top: 10px;
       }
@@ -182,3 +203,4 @@ text-decoration: none;
           display: none;
       }
   }
+  

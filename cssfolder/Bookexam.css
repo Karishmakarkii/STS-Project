@@ -36,7 +36,7 @@ background-color: #2E3190;
 .help.btn, .btn{
     background-color:#C13D4A; 
     color: white;
-    border-radius: 10px 10px;
+    border-radius: 0px 0px;
     width: 130px;
     height: 45px;
     padding-top: 7px;
@@ -46,36 +46,34 @@ background-color: #2E3190;
     font-size: 18px;
     font-weight: 600;
 }
-.reach-us{
-    margin-top: 30px;;
-}
-.reach-us  .reach-blog{
-    font-family: inherit;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-    width: 45em;
-}
-.reach-us h1{
-    font-size: 30px;
+/* form */
+.text h1{
+    font-size: 25px;
     font-weight: 600;
 }
-/* logo */
-.uni{
-    width: 200px;
-    height: 200px;
-
+.form-control {
+	padding: 20px;
+	background-color: #F4F5F4;
+	border-color: #F4F5F4;
 }
-/* office */
-.office-topic ul{
- font-size: 5px;
+.images2 {
+	left: 200px;
+	top: -680px;
+	width: 700px;
+	height: 100px;
+	position: relative;
+	z-index: -1;
 }
-.img-contact{
-    width:500px;
-    height: auto;
+.imguid{
+    opacity: 0.3;
+    height: 650px;
+    width: auto;
 }
-
-
+.custom-select{
+    background-color:#F4F5F4;
+    border-color: #F4F5F4;
+    
+}
 /* footer */
 
 .myfooter{
@@ -122,12 +120,6 @@ background-color: #2E3190;
 
   @media only screen and 
   (max-width: 576px) {
-      .myfooter .btn{
-          margin-top: 10px;
-      }
-  }
-  @media only screen and 
-  (max-width: 768px) {
       .myfooter .btn{
           margin-top: 10px;
       }

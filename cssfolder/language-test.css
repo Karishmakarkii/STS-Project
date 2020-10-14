@@ -167,7 +167,13 @@ background-color: #2E3190;
 /* heading */
 
   @media only screen and 
-  (max-width: 540px) {
+  (max-width: 576px) {
+      .myfooter .btn{
+          margin-top: 10px;
+      }
+  }
+  @media only screen and 
+  (max-width: 768px) {
       .myfooter .btn{
           margin-top: 10px;
       }
@@ -177,4 +183,11 @@ background-color: #2E3190;
       .tophead .head-top{
           display: none;
       }
+  }
+  @media only screen and 
+  (max-width: 768px ) {
+    .about-area .about-blog{
+        
+        width: 35em;
+    }
   }

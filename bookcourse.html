@@ -10,7 +10,7 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="cssfolder/singlepage.css">
+  <link rel="stylesheet" type="text/css" href="cssfolder/bookcourse.css">
 </head>
 <body>
   <header>
@@ -39,7 +39,7 @@
     </button>
     <div class="collapse navbar-collapse mt-0 " id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link mx-2" href="/index.html">Home </a>
         </li>
         <li class="nav-item">
@@ -72,8 +72,8 @@
           <li class="nav-item">
             <a class="nav-link mx-2" href="#">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link mx-3" href="#">Contact Us</a>
+          <li class="nav-item active">
+            <a class="nav-link mx-2" href="#">Contact Us</a>
           </li>
           <li class="nav-item">
         <a href="signup.html" class="btn btn-danger ml-3 " role="button" >Free Enquiry</a>
@@ -81,90 +81,75 @@
       </ul>
     </div>
   </nav>
-</div>
-  <div class=" breadcrumb-div text-center ">
-    <h1>Multiple Page Blog</h1>
-    <ol class="breadcrumb justify-content-center">
-      <li class="breadcrumb-item "><a href="#">Home</a></li>
-      <li class="breadcrumb-item "><a href="#">Library</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Data</li>
-    </ol>
-  </div>
-</div>
-  
-<div class="image-section mt-5">
-    
-</div>
-<div class="container">
-    <div class="single-blog">
-        <h2 class="single-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos, explicabo quidem deserunt sed qui earum ipsa cum rerum pariatur consequatur </h2>
-        <div class="more d-flex my-3">
-          <a href="#"><i class="far fa-user mr-2"></i></a>
-          <p class="text">Karishma Karki</p>
+ <!-- contact form -->
+ <div class="container">
+   <div class="text text-center py-5"><h1>Book A Course</h1></div>
+     <form>
+    <div class="form-row text-left my-0">
+        <div class="form-group col-md-6  text-left">
+          <label for="fname" class="sr-only">Full Name</label>
+    <input type="text" class="form-control" id="fname" placeholder="Full Name">
         </div>
-        <div class="text-para m-4">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, ea corrupti? Pariatur, quod! Alias sed quas iure dolor ipsam natus itaque reprehenderit. Quae beatae tenetur excepturi dolorum a asperiores facilis!sit amet consectetur adipisicing elit. Cumque, ea corrupti? Pariatur, quod! Alias sed quas iure dolor ipsam natus itaque reprehenderit. Quae beatae tenetur excepturi dolorum a asperiores</p>
-        <p>sit amet consectetur adipisicing elit. Cumque, ea corrupti? Pariatur, quod! Alias sed quas iure dolor ipsam natus itaque reprehenderit. Quae beatae tenetur excepturi dolorum a asperiores Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eaque esse odio error beatae culpa? Nemo omnis aperiam facilis quod consequatur aut, animi numquam quos quo labore eaque pariatur hic?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur sint voluptatum corrupti molestias sequi eligendi officia perferendis, iure ratione voluptate omnis esse maxime magnam adipisci? Provident molestiae facere esse.</p>
-    </div>
-    </div>
+      </div>
+      <div class="form-row text-left my-0">
+        <div class="form-group col-md-6 py-3 text-left">
+          <label for="dbirth" class="sr-only">Date Of Birth</label>
+    <input type="text" class="form-control" id="dbirth" placeholder="Date of Birth">
+        </div>
+      </div>
+      <div class="form-row my-0">
+        <div class="form-group col-md-3 ">
+          <label for="contact" class="sr-only">Contact</label>
+    <input type="text" class="form-control" id="contact" placeholder="Contact">
+        </div>
+        <div class="form-group col-md-3 ">
+          <label for="email" class="sr-only">Email Address</label>
+          <input type="text" class="form-control" id="email" placeholder="Email Address">
+        </div>
+        
+       
+      </div>
+      <div class="form-row text-left my-0">
+        <div class="form-group col-md-6 py-3 text-left">
+          <label for="address" class="sr-only"> Address</label>
+    <input type="text" class="form-control" id="address" placeholder=" Address">
+        </div>
+      </div>
+      <div class="form-row my-0">
+        <div class="form-group col-md-3 ">
+          <label for="course" class="sr-only" >Course </label>
+          <select class="custom-select" > 
+            <option selected>Courses</option>
+            <option value="1">Ilets</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        
+        
+       
+      </div>
+      <div class="but py-3">
+        <button type="submit" class="btn btn-danger">Book Now</button>
+        </div>
+        
+</form>
+<div class="images2">
+  <img src="images/Online Check In - Copy.png" class="imguid" >
+</div>
+</div>
 
-    <!-- blogs -->
-    <div class="blogs my-5">
-        <h1>Related Blogs</h1>
-        <div class="card-deck">
-          <div class="card ">
-            <img src="images/pretty-woman-1509956_1920.jpg" class="card-img-top" alt="...">
-            <div class="card-body pt-4">
-              <h6 class="card-title"> Sandeep Gurung  | 1 oct 2020</h6>
-              <p class="contents pb-1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus </p>
-              <div class="more1 d-flex">
-                <p class="text">Read More</p>
-                <a href="#"><i class="fas fa-arrow-right ml-2"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <img src="images/scott-walsh-CQl3Y5bV6FA-unsplash.jpg" class="card-img-top" alt="...">
-            <div class="card-body pt-4">
-              <h6 class="card-title"> Sandeep Gurung  | 1 oct 2020</h6>
-              <p class="contents pb-1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus </p>
-              <div class="more1 d-flex">
-                <p class="text">Read More</p>
-                <a href="#"><i class="fas fa-arrow-right ml-2"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <img src="images/scott-walsh-CQl3Y5bV6FA-unsplash.jpg" class="card-img-top" alt="...">
-            <div class="card-body pt-4">
-              <h6 class="card-title"> Sandeep Gurung  | 1 oct 2020</h6>
-              <p class="contents pb-1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus </p>
-              <div class="more1 d-flex">
-                <p class="text">Read More</p>
-                <a href="#"><i class="fas fa-arrow-right ml-2"></i></a>
-              </div>
-            </div>
-          </div>
-          </div>
-          </div>
+
 </div>
 
   
-   
-
-
-  
-<footer class="myfooter py-5 ">
+<footer class="myfooter py-5 mt-5">
   <div class="container">
     <div class="row text-left">
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-md-3 col-sm-12">
         <img src="#">
     </div>
-      <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="col-md-3 col-sm-6">
         <h5 class="footer-topic">Contact Us</h5>
         <ul class="list-unstyled">
           <li class="my-2"><i class="fas fa-home mr-3"></i>infomystsedu@gmail.com</li>
@@ -172,7 +157,7 @@
           <li class="my-2"><i class="fas fa-map-marker-alt mr-3"></i></i>+ 01 234 567 88</li>
         </ul>
     </div>
-    <div class="col-lg-2 col-md-6 col-sm-6">
+    <div class="col-md-2 col-sm-6">
       <h5 class="footer-topic">Quick Link</h5>
       <ul class="list-unstyled">
         <li class="my-2"><a href="#">Home</a></li>        
@@ -182,7 +167,7 @@
         <li class="my-2"> <a href="#">Contact</a></li>         
       </ul>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 ">
+    <div class="col-md-4 col-sm-12 ">
       <h5 class="footer-topic">Stay On</h5>
       <form>
         <div class="form-row justify-content-between">
@@ -213,6 +198,7 @@
 
 
 </footer>
+
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
